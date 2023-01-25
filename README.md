@@ -32,7 +32,8 @@ User Stories
 
   Version 2
   1. AS a user, I want to upload he image of player in addition to the name and stats.
-  2. As a user, I want to make a player's birth place and year he was born as a subdocument.
+  2. As a user, I want to make a player's stats and a batter's stats as a subdocument. 
+  3. As a user, I want to make a certain people who has a correct username and password to go to the stats collection board because I do not want user whom I do not know modify data. 
 
 
 
