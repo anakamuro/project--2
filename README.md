@@ -2,19 +2,19 @@
 
 # Wireframe
 
-![Wireframe](asset/bat-stats.jpeg)
+![Wireframe](assets/bat-stats.jpeg)
 
 --
 
-![Wireframe](asset/pitch-stats.jpeg)
+![Wireframe](assets/pitch-stats.jpeg)
 
 --
 
-![Wireframe](asset/stats=collection.jpeg)
+![Wireframe](assets/stats-collection.jpeg)
 
 --
 
-![Wireframe](asset/ERD.jpeg)
+![Wireframe](assets/ERD.jpeg)
 
 
 
