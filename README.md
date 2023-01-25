@@ -1,19 +1,19 @@
 # ** TITLE **  Baseball Stats Data Collection
 
 # Wireframe
-
+# Batting Stats Creation Form
 ![Wireframe](assets/bat-stats.jpeg)
 
 --
-
+# Pitching Stats Creation Form
 ![Wireframe](assets/pitch-stats.jpeg)
 
 --
-
+# Stats Collection Board
 ![Wireframe](assets/stats-collection.jpeg)
 
 --
-
+# ERD List
 ![Wireframe](assets/ERD.jpeg)
 
 
