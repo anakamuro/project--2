@@ -2,13 +2,26 @@
 
 # Wireframe
 
-<img src="https://www.figma.com/file/2g6pszWCFe4q6YnMSvBiAJ/ERD-LIST?node-id=0%3A1&t=KzcDss82dQwaWmR8-1" width="1000" height="800">
+![Wireframe](asset/bat-stats.jpeg)
 
-<img src="https://www.figma.com/file/ufUr706bSvuzgoovUetUHS/Baseball-stats-data-entry-form-(Copy)?t=KzcDss82dQwaWmR8-1" width="1000" height="800">
-<img src="https://www.figma.com/file/ufUr706bSvuzgoovUetUHS/Baseball-stats-data-entry-form-(Copy)?t=KzcDss82dQwaWmR8-1" width="1000" height="800">
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FXMTdHiS0vO5Pn6CN3Q2kg9%2FUntitled%3Ft%3DKzcDss82dQwaWmR8-1" allowfullscreen></iframe>
-image.png
-<img src="image.png" width="1000" height="800">
+--
+
+![Wireframe](asset/pitch-stats.jpeg)
+
+--
+
+![Wireframe](asset/stats=collection.jpeg)
+
+--
+
+![Wireframe](asset/ERD.jpeg)
+
+
+
+---
+
+
+
 
 User Stories
 
@@ -23,6 +36,5 @@ User Stories
 
 
 
-<img src="https://www.figma.com/file/2g6pszWCFe4q6YnMSvBiAJ/ERD-LIST?node-id=0%3A1&t=KzcDss82dQwaWmR8-1" width="1000" height="800">
 
 
