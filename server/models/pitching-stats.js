@@ -20,11 +20,7 @@ const pitchingSchema = new mongoose.Schema(
 		},
         image: {
 			type: String
-		},
-        playerId: {
-			type: String,
-			required: true,
-		},
+		}
 	},
 	{
 		timestamps: true,

@@ -31,10 +31,9 @@ app.use(express.json())
 
 app.use(requestLogger)
 
-
+app.use(userRoutes)
 app.use(playerRoutes)
 app.use(battingRoutes)
-app.use(userRoutes)
 app.use(pitchingRoutes)
 
 

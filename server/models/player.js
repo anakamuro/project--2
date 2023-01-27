@@ -16,10 +16,7 @@ const playerSchema = new Schema(
         birthplace: {
             type: String
         },
-        yearsborn: {
-            type: Number
-        },
-        playerId: {
+        yearsBorn: {
             type: Number
         },
         pitchingStats: [pitchingSchema],
