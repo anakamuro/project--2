@@ -7,7 +7,7 @@ const { handle404 } = require('../lib/custom-errors')
 
 // CREATE
 // POST /notes/
-/*
+
 router.get('/pitching-stats', (req, res, next) => {
     Player.find()
         .then(players => {
@@ -18,7 +18,7 @@ router.get('/pitching-stats', (req, res, next) => {
         })
         .catch(next)
 })
-*/
+
 
 router.post('/pitching-stats', (req, res, next) => {
 	const playerId = req.body.pitchingStats.playerId
