@@ -19,8 +19,12 @@ const playerSchema = new Schema(
         yearsBorn: {
             type: Number
         },
-        pitchingStats: [pitchingSchema],
         battingStats: [battingSchema],
+        pitchingStats: [pitchingSchema],
+    owner: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+    }
 	},
 	{
 		timestamps: true,

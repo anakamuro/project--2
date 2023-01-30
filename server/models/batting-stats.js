@@ -6,10 +6,6 @@ const battingSchema = new mongoose.Schema(
 			type: String,
 			required: true,
 		},
-		average: {
-			type: String,
-			required: true,
-		},
         homerun: {
 			type: String,
 			required: true,
@@ -17,14 +13,14 @@ const battingSchema = new mongoose.Schema(
         rbi: {
 			type: String,
 			required: true,
-		},
-        image: {
-			type: String
 		}
 	},
 	{
 		timestamps: true,
 	}
 )
+
+
+//const Batting = mongoose.model('Batting', battingSchema)
 
 module.exports = battingSchema

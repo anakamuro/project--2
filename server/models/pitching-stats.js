@@ -13,18 +13,12 @@ const pitchingSchema = new mongoose.Schema(
         loss: {
 			type: String,
 			required: true,
-		},
-        era: {
-			type: String,
-			required: true,
-		},
-        image: {
-			type: String
 		}
 	},
 	{
 		timestamps: true,
 	}
 )
+
 
 module.exports = pitchingSchema

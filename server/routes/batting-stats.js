@@ -7,6 +7,7 @@ const { handle404 } = require('../lib/custom-errors')
 
 // CREATE
 // POST /notes/
+/*
 router.get('/batting-stats', (req, res, next) => {
     Player.find()
         .then(players => {
@@ -17,13 +18,15 @@ router.get('/batting-stats', (req, res, next) => {
         })
         .catch(next)
 })
+*/
 router.post('/batting-stats', (req, res, next) => {
 	const playerId = req.body.battingStats.playerId
-
+     console.log('playerId', playerId)
+	 const battingStat = req.body.battingStats
 	Player.findById(playerId)
 		.then(handle404)
 		.then((player) => {
-			player.battingStats.push(req.body.battingStats)
+			player.battingStats.push(battingStat)
 
 			return player.save()
 		})
