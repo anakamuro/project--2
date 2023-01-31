@@ -21,10 +21,11 @@ const playerSchema = new Schema(
         },
         battingStats: [battingSchema],
         pitchingStats: [pitchingSchema],
+        /*
     owner: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User'
-    }
+    }*/
 	},
 	{
 		timestamps: true,
