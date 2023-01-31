@@ -3,16 +3,16 @@ const mongoose = require('mongoose')
 const battingSchema = new mongoose.Schema(
 	{
 		name: {
-			type: String,
-			required: true,
+			type: String
 		},
         homerun: {
-			type: String,
-			required: true,
+			type: String
 		},
         rbi: {
-			type: String,
-			required: true,
+			type: String
+		},
+	    playerId: {
+			type: Number
 		}
 	},
 	{
