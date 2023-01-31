@@ -13,6 +13,9 @@ const pitchingSchema = new mongoose.Schema(
         loss: {
 			type: String,
 			required: true,
+		},
+		playerId: {
+			type: Number
 		}
 	},
 	{
