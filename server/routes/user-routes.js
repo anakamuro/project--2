@@ -7,7 +7,7 @@ const { createUserToken } = require('../config/auth')
 const router = express.Router()
 
 // POST /sign-up
-router.post('/sign-up', (req, res, next) => {
+router.post('/signup', (req, res, next) => {
     bcrypt
         .hash(req.body.credentials.password, 10)
         .then(hashedPassword => {
@@ -24,7 +24,7 @@ router.post('/sign-up', (req, res, next) => {
 })
 
 // POST /sign-in
-router.post('/sign-in', (req, res, next) => {
+router.post('/signin', (req, res, next) => {
     User.findOne({ email: req.body.credentials.email })
         .then(user => createUserToken(req, user))
         .then(token => res.json({ token: token }))

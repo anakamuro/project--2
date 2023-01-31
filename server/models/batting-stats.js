@@ -10,9 +10,6 @@ const battingSchema = new mongoose.Schema(
 		},
         rbi: {
 			type: String
-		},
-	    playerId: {
-			type: Number
 		}
 	},
 	{
