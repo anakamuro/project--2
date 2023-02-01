@@ -7,12 +7,13 @@ const pitchingSchema = new mongoose.Schema(
 			required: true,
 		},
 		win: {
-			type: String,
-			required: true,
+			type: String
 		},
         loss: {
-			type: String,
-			required: true,
+			type: String
+		},
+		era:{
+			type: Number
 		},
 		playerId: {
 			type: Number

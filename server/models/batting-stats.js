@@ -5,6 +5,9 @@ const battingSchema = new mongoose.Schema(
 		name: {
 			type: String
 		},
+		average: {
+			type: Number
+		},
         homerun: {
 			type: String
 		},

@@ -1,12 +1,8 @@
 const express = require('express')
 const router = express.Router()
-
-// require campaign model
 const Player = require('../models/player')
 const { handle404 } = require('../lib/custom-errors')
 
-// CREATE
-// POST /notes/
 
 router.get('/pitching-stats', (req, res, next) => {
     Player.find()

@@ -19,6 +19,44 @@
 
 
 ---
+# ** Description ** 
+
+This project needs to be done using both front end and back end. One needs to make a schema, routes and express.js using mongoose o back end.  In the front end side, I used HTML, CSS, Javascript as usual, especially a lot of dom manipulation. 
+
+# ** Technologies I used ** 
+
+1. Javascript
+
+2.  HTML
+
+3.  CSS
+
+4.  Mongoose
+
+5.  Mongodb
+
+6.  Nodemon
+
+7. Express
+
+8. Cors
+
+9. Passport
+
+10. Passport-Jwt
+
+11. Node
+
+# ** Rouets I used ** 
+| Name | Path | Http Verb | Purpose |
+| --- | --- | --- | --- |
+| Index | /players | GET | Display all lists |
+| Show | /players/:id | GET | Display one list |
+| Create | /players | POST | Create one list |
+| Update | /players/:id | PATCH | Update one list |
+| Delete | /players/:id | DELETE | Delete one list |
+
+
 
 
 
