@@ -11,17 +11,13 @@ const router = express.Router()
 
 // INDEX
 // GET /campaigns
-router.get('/players', requireToken, async (req, res, next) => {
-	Player.find({})
+router.get('/players', requireToken, (req, res, next) => {
+	Player.find()
 		.then((players) => {
 			return players.map((player) => player)
 		})
 		.then((players) => res.status(200).json({ players: players }))
 		.catch(next)
-
-	// const players = await Player.find({})
-	// if (!players) return res.status(404).json({ msg: "no players" })
-	// res.status(200).json(players)
 })
 
 // SHOW
@@ -36,7 +32,7 @@ router.get('/players/:id', requireToken, (req, res, next) => {
 
 // CREATE
 // POST /campaigns
-router.post('/players', requireToken, (req, res, next) => {
+router.post('/players', (req, res, next) => {
 	Player.create(req.body.player)
 		.then((player) => {
 			res.status(201).json({ player: player })
@@ -46,7 +42,7 @@ router.post('/players', requireToken, (req, res, next) => {
 
 // UPDATE
 // PATCH /campaigns/5a7db6c74d55bc51bdf39793
-router.patch('/players/:id', requireToken, (req, res, next) => {
+router.patch('/players/:id', (req, res, next) => {
 	Player.findById(req.params.id)
 		.then(handle404)
 		.then((player) => {
@@ -58,7 +54,7 @@ router.patch('/players/:id', requireToken, (req, res, next) => {
 
 // DESTROY
 // DELETE /campaigns/5a7db6c74d55bc51bdf39793
-router.delete('/players/:id', requireToken, (req, res, next) => {
+router.delete('/players/:id', (req, res, next) => {
 	Player.findById(req.params.id)
 		.then(handle404)
 		.then((player) => {

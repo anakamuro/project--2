@@ -12,7 +12,7 @@ const battingSchema = new mongoose.Schema(
 			type: String
 		},
 		playerId: {
-			type: Number
+			type: String
 		}
 	},
 	{
