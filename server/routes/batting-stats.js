@@ -4,8 +4,8 @@ const Player = require('../models/player')
 const { handle404 } = require('../lib/custom-errors')
 
 // CREATE
+// update comments when copying and pasting over
 // POST /notes/
-
 router.get('/batting-stats', (req, res, next) => {
     Player.find()
         .then(players => {
@@ -19,6 +19,7 @@ router.get('/batting-stats', (req, res, next) => {
 
 router.post('/batting-stats', (req, res, next) => {
 	const playerId = req.body.battingStats.playerId
+	// Remove console logs
      console.log('playerId', playerId)
 	 const battingStat = req.body.battingStats
 	Player.findById(playerId)
