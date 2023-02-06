@@ -9,6 +9,8 @@ const Player = require('../models/player')
 // Creating a router for us to make paths on
 const router = express.Router()
 
+// Comments do not match routes. Make sure to update comments when copying and pasting from a source
+
 // INDEX
 // GET /campaigns
 router.get('/players', requireToken, (req, res, next) => {
